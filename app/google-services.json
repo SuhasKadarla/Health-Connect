@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "257673944729",
+    "project_id": "bluetoothwaveformapp",
+    "storage_bucket": "bluetoothwaveformapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257673944729:android:907c9f9b434edfc10f2208",
+        "android_client_info": {
+          "package_name": "com.example.bluetoothwaveformapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFtxPLuK7pK2Bmj-dCLaZN9rtrQc00vGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Glow Effect -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="30dp" android:height="30dp"/>
+            <solid android:color="#33FF4081"/> <!-- Soft white glow -->
+        </shape>
+    </item>
+
+    <!-- Main Thumb -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="28dp" android:height="28dp"/>
+            <solid android:color="#FFFFFF"/> <!-- White thumb -->
+            <stroke android:width="2dp" android:color="#D6008D"/> <!-- Pink stroke -->
+        </shape>
+    </item>
+
+</layer-list>

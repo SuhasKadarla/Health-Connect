@@ -1,0 +1,35 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+    </style>
+
+    <style name="CustomButtonStyle">
+        <!-- Apply the custom drawable background -->
+        <item name="android:background">@drawable/custom_button_background</item>
+        <!-- Button text color -->
+        <item name="android:textColor">@android:color/white</item>
+        <!-- Padding for better spacing -->
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <!-- Elevation for shadow effect -->
+        <item name="android:elevation">4dp</item>
+        <!-- Text size -->
+        <item name="android:textSize">16sp</item>
+        <!-- Font style -->
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="CustomActionBarTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+
+
+
+
+</resources>

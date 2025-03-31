@@ -1,0 +1,85 @@
+plugins {
+    alias(libs.plugins.android.application)
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.example.bluetoothwaveformapp'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.bluetoothwaveformapp"
+        minSdk 24
+        targetSdk 34
+        versionCode 40000
+        versionName "4.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    // Core libraries
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.constraintlayout
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
+
+    // Google Play Services for Ads and Bluetooth functionality
+    implementation libs.play.services.ads
+    implementation libs.play.services.basement
+
+    // Chart library for waveform display
+    implementation libs.mpandroidchart
+
+    // PDF generation library (iText)
+    implementation libs.itext7.core
+    implementation libs.itext7.core.v723
+
+    // Data binding support
+    implementation libs.databinding.runtime
+
+    // WebView support
+    implementation libs.webkit
+    implementation libs.drawerlayout
+    implementation libs.material
+    implementation libs.lifecycle.runtime.ktx // For lifecycle-aware components
+
+
+    // Bluetooth permission handling
+    implementation libs.core.ktx
+    implementation libs.swiperefreshlayout// Optional for better Bluetooth permissions handling
+
+    // Testing dependencies
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    // BLE support
+    implementation libs.core
+    implementation libs.firebase.analytics
+    implementation libs.play.services.measurement
+
+    implementation libs.firebase.bom.v3380
+    implementation libs.google.firebase.analytics
+    implementation libs.lottie
+
+
+
+
+}

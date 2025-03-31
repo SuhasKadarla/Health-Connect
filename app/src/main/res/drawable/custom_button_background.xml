@@ -1,0 +1,11 @@
+<!-- res/drawable/custom_button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button Background Color -->
+    <solid android:color="#2FE6D5"/> <!-- Purple color -->
+
+    <!-- Rounded Corners -->
+    <corners android:radius="30dp"/> <!-- Set corner radius here -->
+
+    <!-- Button Height -->
+    <size android:height="48dp"/> <!-- You can adjust the height -->
+</shape>

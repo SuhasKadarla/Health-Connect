@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BluetoothWaveformApp</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="first_fragment_label">Primer Fragmento</string>
+    <string name="second_fragment_label">Segundo Fragmento</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="bluetooth_enabled">Bluetooth activado.</string>
+    <string name="connected_to_device">Conectado a %1$s</string>
+    <string name="drawer_open">Menú de navegación abierto</string>
+    <string name="drawer_close">Menú de navegación cerrado</string>
+    <string name="connect_to_device">Conectar al dispositivo</string>
+    <string name="line_width">Ancho de la línea</string>
+    <string name="show_grid_lines">Mostrar líneas de la cuadrícula</string>
+    <string name="enable_zoom">Habilitar zoom</string>
+    <string name="save_settings">Guardar configuraciones</string>
+    <string name="settings">Configuraciones</string>
+    <string name="scan_for_devices">Buscar dispositivos</string>
+    <string name="start_recording">Iniciar grabación</string>
+    <string name="playback_recording">Reproducir grabación</string>
+    <string name="reset_zoom">Restablecer zoom</string>
+    <string name="generate_pdf_report">Generar informe PDF</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Detener</string>
+    <string name="pause">Pausa</string>
+    <string name="close">Cerrar</string>
+</resources>

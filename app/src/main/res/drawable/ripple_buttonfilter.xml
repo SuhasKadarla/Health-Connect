@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white"> <!-- Uses system-defined ripple color -->
+
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#FF0077"
+                android:centerColor="#8000FF"
+                android:endColor="#008FFF"
+                android:type="linear"/>
+
+            <corners android:radius="50dp"/>
+        </shape>
+    </item>
+
+</ripple>
+
+
+

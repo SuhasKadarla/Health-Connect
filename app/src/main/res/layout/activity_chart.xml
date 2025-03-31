@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Bottom Border Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#CCCCCC"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Graph View"
+        android:textSize="20sp"
+        android:textColor="#0B0B0B"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.05"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:gravity="right"
+        />
+    <!-- Line Chart -->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/buttonResetZoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Zoom"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#A7AFE0"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/a_man_doing_research_and_experiments_svgrepo_com"
+            android:alpha="0.9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:text="Analyzing......."
+        android:textColor="#0B0B0B"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.05"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#323842">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line Width"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarLineWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBoxGridLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Grid Lines"
+        android:textColor="@android:color/white"
+
+        android:buttonTint="@color/CheckBox"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxZoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Zoom"
+        android:textColor="@android:color/white"
+
+        android:buttonTint="@color/CheckBox"/>
+
+
+    <Button
+        android:id="@+id/buttonSaveSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:textColor="@android:color/black"
+        android:background="@drawable/button_outline"
+        android:padding="10dp"/>
+
+
+</LinearLayout>

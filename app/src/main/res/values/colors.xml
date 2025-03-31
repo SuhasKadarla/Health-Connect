@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="rippleColor">#66FFFFFF</color>
+    <color name="ripple_color">#A9FFFFFF</color> <!-- Semi-transparent black for ripple -->
+    <color name="button_background_color">#6200EE</color> <!-- Purple background color -->
+    <color name="white">#FFFFFF</color> <!-- White color -->
+    <color name="black">#070707</color> <!-- black color -->
+    <color name="lavender">#8692f7</color>
+    <color name="CheckBox">#FFD20D</color>
+    <color name="gray_ripple">#BDBDBD</color> <!-- Light Gray Ripple Effect -->
+    <color name="your_button_text_color">#000000</color> <!-- Black -->
+    <color name="your_button_bg_color">#EFEDF2</color> <!-- Any color you prefer -->
+
+
+
+
+
+
+
+
+
+
+</resources>
+
+

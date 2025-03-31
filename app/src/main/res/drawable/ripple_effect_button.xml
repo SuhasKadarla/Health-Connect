@@ -1,0 +1,9 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#80908F8F">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" /> <!-- Default button color -->
+            <corners android:radius="20dp" />  <!-- Rounded corners -->
+        </shape>
+    </item>
+</ripple>

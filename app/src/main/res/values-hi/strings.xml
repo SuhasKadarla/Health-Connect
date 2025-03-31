@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BluetoothWaveformApp</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="first_fragment_label">पहला फ़्रैगमेंट</string>
+    <string name="second_fragment_label">दूसरा फ़्रैगमेंट</string>
+    <string name="next">अगला</string>
+    <string name="previous">पिछला</string>
+    <string name="bluetooth_enabled">ब्लूटूथ सक्षम किया गया।</string>
+    <string name="connected_to_device">%1$s से कनेक्टेड</string>
+    <string name="drawer_open">नेविगेशन ड्रॉअर खोला गया</string>
+    <string name="drawer_close">नेविगेशन ड्रॉअर बंद किया गया</string>
+    <string name="connect_to_device">डिवाइस से कनेक्ट करें</string>
+    <string name="line_width">लाइन चौड़ाई</string>
+    <string name="show_grid_lines">ग्रिड लाइन्स दिखाएं</string>
+    <string name="enable_zoom">ज़ूम सक्षम करें</string>
+    <string name="save_settings">सेटिंग्स सहेजें</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="scan_for_devices">डिवाइस के लिए स्कैन करें</string>
+    <string name="start_recording">रिकॉर्डिंग शुरू करें</string>
+    <string name="playback_recording">रिकॉर्डिंग चलाएं</string>
+    <string name="reset_zoom">ज़ूम रीसेट करें</string>
+    <string name="generate_pdf_report">PDF रिपोर्ट जनरेट करें</string>
+    <string name="start">शुरू करें</string>
+    <string name="stop">रोकें</string>
+    <string name="pause">रोकें</string>
+    <string name="close">बंद करें</string>
+</resources>
